@@ -1,0 +1,419 @@
+[08-Oct-2021 19:47:48 UTC] PHP Parse error:  syntax error, unexpected '"' in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/themes/sweetbabytheme/index.php on line 8
+[08-Oct-2021 19:47:50 UTC] PHP Parse error:  syntax error, unexpected '"' in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/themes/sweetbabytheme/index.php on line 8
+[08-Oct-2021 19:47:57 UTC] PHP Parse error:  syntax error, unexpected '"' in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/themes/sweetbabytheme/index.php on line 8
+[08-Oct-2021 20:17:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/themes/sweetbabytheme/functions.php on line 2 and at least 2 expected in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:394
+Stack trace:
+#0 /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/themes/sweetbabytheme/functions.php(2): add_action()
+#1 /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php(546): include('/Users/NatRichm...')
+#2 /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php(77): require_once('/Users/NatRichm...')
+#3 /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php(50): require_once('/Users/NatRichm...')
+#4 /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/NatRichm...')
+#5 {main}
+  thrown in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php on line 394
+[19-Oct-2021 15:23:33 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/themes/sweetbabytheme/page.php on line 48
+[28-Oct-2021 22:24:07 UTC] PHP Warning:  include(/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php): failed to open stream: No such file or directory in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:07 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:07 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:07 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:07 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:07 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:07 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:07 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:07 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:07 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:07 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:07 UTC] PHP Warning:  include(): Failed opening '/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:07 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:07 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:07 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:07 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:07 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:07 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:07 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:07 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:07 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:07 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:07 UTC] PHP Warning:  include(/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php): failed to open stream: No such file or directory in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:07 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:07 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-cron.php:0
+[28-Oct-2021 22:24:07 UTC] PHP   2. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-cron.php:44
+[28-Oct-2021 22:24:07 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:07 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:07 UTC] PHP   5. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:07 UTC] PHP   6. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:07 UTC] PHP   7. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:07 UTC] PHP   8. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:07 UTC] PHP Warning:  include(): Failed opening '/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:07 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:07 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-cron.php:0
+[28-Oct-2021 22:24:07 UTC] PHP   2. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-cron.php:44
+[28-Oct-2021 22:24:07 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:07 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:07 UTC] PHP   5. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:07 UTC] PHP   6. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:07 UTC] PHP   7. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:07 UTC] PHP   8. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:07 UTC] PHP Warning:  include(/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php): failed to open stream: No such file or directory in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:07 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:07 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:07 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:07 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:07 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:07 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:07 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:07 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:07 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:07 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:07 UTC] PHP Warning:  include(): Failed opening '/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:07 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:07 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:07 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:07 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:07 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:07 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:07 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:07 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:07 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:07 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:07 UTC] PHP Warning:  include(/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php): failed to open stream: No such file or directory in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:07 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:07 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:07 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:07 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:07 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:07 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:07 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:07 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:07 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:07 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:07 UTC] PHP Warning:  include(): Failed opening '/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:07 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:07 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:07 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:07 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:07 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:07 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:07 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:07 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:07 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:07 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:18 UTC] PHP Warning:  include(/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php): failed to open stream: No such file or directory in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:18 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:18 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:18 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:18 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:18 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:18 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:18 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:18 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:18 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:18 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:18 UTC] PHP Warning:  include(): Failed opening '/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:18 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:18 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:18 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:18 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:18 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:18 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:18 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:18 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:18 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:18 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:18 UTC] PHP Warning:  include(/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php): failed to open stream: No such file or directory in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:18 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:18 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:18 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:18 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:18 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:18 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:18 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:18 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:18 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:18 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:18 UTC] PHP Warning:  include(): Failed opening '/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:18 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:18 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:18 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:18 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:18 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:18 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:18 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:18 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:18 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:18 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:19 UTC] PHP Warning:  include(/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php): failed to open stream: No such file or directory in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:19 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:19 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:19 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:19 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:19 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:19 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:19 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:19 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:19 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:19 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:19 UTC] PHP Warning:  include(): Failed opening '/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:19 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:19 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:19 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:19 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:19 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:19 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:19 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:19 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:19 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:19 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:19 UTC] PHP Warning:  include(/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php): failed to open stream: No such file or directory in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:19 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:19 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:19 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:19 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:19 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:19 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:19 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:19 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:19 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:19 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:19 UTC] PHP Warning:  include(): Failed opening '/Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/build/index.asset.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 11
+[28-Oct-2021 22:24:19 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:19 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:19 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:19 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:24:19 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:24:19 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:24:19 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:24:19 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:19 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:19 UTC] PHP   9. loadMyBlockFiles() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php:11) in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/pluggable.php on line 1340
+[28-Oct-2021 22:24:19 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:19 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:19 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:19 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:19
+[28-Oct-2021 22:24:19 UTC] PHP   4. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/template-loader.php:45
+[28-Oct-2021 22:24:19 UTC] PHP   5. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:19 UTC] PHP   6. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:19 UTC] PHP   7. do_favicon() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:19 UTC] PHP   8. wp_redirect() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/functions.php:1694
+[28-Oct-2021 22:24:19 UTC] PHP   9. header() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/pluggable.php:1340
+[28-Oct-2021 22:24:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php:11) in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/pluggable.php on line 1343
+[28-Oct-2021 22:24:19 UTC] PHP Stack trace:
+[28-Oct-2021 22:24:19 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:24:19 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:24:19 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:19
+[28-Oct-2021 22:24:19 UTC] PHP   4. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/template-loader.php:45
+[28-Oct-2021 22:24:19 UTC] PHP   5. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:24:19 UTC] PHP   6. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:24:19 UTC] PHP   7. do_favicon() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:303
+[28-Oct-2021 22:24:19 UTC] PHP   8. wp_redirect() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/functions.php:1694
+[28-Oct-2021 22:24:19 UTC] PHP   9. header() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/pluggable.php:1343
+[28-Oct-2021 22:32:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:32:41 UTC] PHP Stack trace:
+[28-Oct-2021 22:32:41 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:32:41 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:32:41 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:32:41 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:32:41 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:32:41 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:32:41 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:32:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:32:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:32:42 UTC] PHP Stack trace:
+[28-Oct-2021 22:32:42 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:32:42 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:32:42 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:32:42 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:32:42 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:32:42 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:32:42 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:32:42 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:32:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:32:42 UTC] PHP Stack trace:
+[28-Oct-2021 22:32:42 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:32:42 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:32:42 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:32:42 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:32:42 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:32:42 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:32:42 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:32:42 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:34:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:34:10 UTC] PHP Stack trace:
+[28-Oct-2021 22:34:10 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:34:10 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:34:10 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:34:10 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:34:10 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:34:10 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:34:10 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:34:10 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:34:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:34:11 UTC] PHP Stack trace:
+[28-Oct-2021 22:34:11 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:34:11 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:34:11 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:34:11 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:34:11 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:34:11 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:34:11 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:34:11 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:34:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:34:11 UTC] PHP Stack trace:
+[28-Oct-2021 22:34:11 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:34:11 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:34:11 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:34:11 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:34:11 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:34:11 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:34:11 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:34:11 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:38:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:38:58 UTC] PHP Stack trace:
+[28-Oct-2021 22:38:58 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:38:58 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:38:58 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:38:58 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:38:58 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:38:58 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:38:58 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:38:58 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:38:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:38:58 UTC] PHP Stack trace:
+[28-Oct-2021 22:38:58 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:38:58 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:38:58 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:38:58 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:38:58 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:38:58 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:38:58 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:38:58 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:38:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:38:59 UTC] PHP Stack trace:
+[28-Oct-2021 22:38:59 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:38:59 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:38:59 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:38:59 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:38:59 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:38:59 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:38:59 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:38:59 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:39:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:39:14 UTC] PHP Stack trace:
+[28-Oct-2021 22:39:14 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:39:14 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:39:14 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:39:14 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:39:14 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:39:14 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:39:14 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:39:14 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:39:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:39:14 UTC] PHP Stack trace:
+[28-Oct-2021 22:39:14 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:39:14 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:39:14 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:39:14 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:39:14 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:39:14 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:39:14 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:39:14 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:39:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'nat-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:39:15 UTC] PHP Stack trace:
+[28-Oct-2021 22:39:15 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:39:15 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:39:15 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:39:15 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:39:15 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:39:15 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:39:15 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:39:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:42:36 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:42:36 UTC] PHP Stack trace:
+[28-Oct-2021 22:42:36 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:42:36 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:42:36 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:42:36 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:42:36 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:42:36 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:42:36 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:42:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:42:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:42:37 UTC] PHP Stack trace:
+[28-Oct-2021 22:42:37 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:42:37 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:42:37 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:42:37 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:42:37 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:42:37 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:42:37 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:42:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:42:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:42:37 UTC] PHP Stack trace:
+[28-Oct-2021 22:42:37 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:0
+[28-Oct-2021 22:42:37 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/index.php:17
+[28-Oct-2021 22:42:37 UTC] PHP   3. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-blog-header.php:13
+[28-Oct-2021 22:42:37 UTC] PHP   4. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-load.php:50
+[28-Oct-2021 22:42:37 UTC] PHP   5. require_once() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-config.php:77
+[28-Oct-2021 22:42:37 UTC] PHP   6. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-settings.php:578
+[28-Oct-2021 22:42:37 UTC] PHP   7. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:42:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:43:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:43:38 UTC] PHP Stack trace:
+[28-Oct-2021 22:43:38 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post-new.php:0
+[28-Oct-2021 22:43:38 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post-new.php:72
+[28-Oct-2021 22:43:38 UTC] PHP   3. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/edit-form-blocks.php:252
+[28-Oct-2021 22:43:38 UTC] PHP   4. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:43:38 UTC] PHP   5. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:44:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:44:21 UTC] PHP Stack trace:
+[28-Oct-2021 22:44:21 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post-new.php:0
+[28-Oct-2021 22:44:21 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post-new.php:72
+[28-Oct-2021 22:44:21 UTC] PHP   3. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/edit-form-blocks.php:252
+[28-Oct-2021 22:44:21 UTC] PHP   4. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:44:21 UTC] PHP   5. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:44:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:44:24 UTC] PHP Stack trace:
+[28-Oct-2021 22:44:24 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post-new.php:0
+[28-Oct-2021 22:44:24 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post-new.php:72
+[28-Oct-2021 22:44:24 UTC] PHP   3. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/edit-form-blocks.php:252
+[28-Oct-2021 22:44:24 UTC] PHP   4. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:44:24 UTC] PHP   5. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[28-Oct-2021 22:44:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[28-Oct-2021 22:44:29 UTC] PHP Stack trace:
+[28-Oct-2021 22:44:29 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post-new.php:0
+[28-Oct-2021 22:44:29 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post-new.php:72
+[28-Oct-2021 22:44:29 UTC] PHP   3. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/edit-form-blocks.php:252
+[28-Oct-2021 22:44:29 UTC] PHP   4. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[28-Oct-2021 22:44:29 UTC] PHP   5. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[29-Oct-2021 23:17:36 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 15
+[29-Oct-2021 23:19:54 UTC] PHP Parse error:  syntax error, unexpected 'register' (T_STRING) in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/plugins/my-cool-border/plugin.php on line 20
+[30-Oct-2021 00:10:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[30-Oct-2021 00:10:48 UTC] PHP Stack trace:
+[30-Oct-2021 00:10:48 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post.php:0
+[30-Oct-2021 00:10:48 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post.php:187
+[30-Oct-2021 00:10:48 UTC] PHP   3. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/edit-form-blocks.php:252
+[30-Oct-2021 00:10:48 UTC] PHP   4. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[30-Oct-2021 00:10:48 UTC] PHP   5. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[30-Oct-2021 00:10:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[30-Oct-2021 00:10:52 UTC] PHP Stack trace:
+[30-Oct-2021 00:10:52 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post.php:0
+[30-Oct-2021 00:10:52 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post.php:187
+[30-Oct-2021 00:10:52 UTC] PHP   3. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/edit-form-blocks.php:252
+[30-Oct-2021 00:10:52 UTC] PHP   4. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[30-Oct-2021 00:10:52 UTC] PHP   5. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[30-Oct-2021 00:11:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[30-Oct-2021 00:11:05 UTC] PHP Stack trace:
+[30-Oct-2021 00:11:05 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post.php:0
+[30-Oct-2021 00:11:05 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post.php:187
+[30-Oct-2021 00:11:05 UTC] PHP   3. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/edit-form-blocks.php:252
+[30-Oct-2021 00:11:05 UTC] PHP   4. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[30-Oct-2021 00:11:05 UTC] PHP   5. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[30-Oct-2021 00:11:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my-block' not found or invalid function name in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php on line 303
+[30-Oct-2021 00:11:28 UTC] PHP Stack trace:
+[30-Oct-2021 00:11:28 UTC] PHP   1. {main}() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post.php:0
+[30-Oct-2021 00:11:28 UTC] PHP   2. require() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/post.php:187
+[30-Oct-2021 00:11:28 UTC] PHP   3. do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-admin/edit-form-blocks.php:252
+[30-Oct-2021 00:11:28 UTC] PHP   4. WP_Hook->do_action() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/plugin.php:470
+[30-Oct-2021 00:11:28 UTC] PHP   5. WP_Hook->apply_filters() /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-includes/class-wp-hook.php:327
+[01-Nov-2021 02:59:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/themes/sweetbabytheme/functions.php on line 22
+[01-Nov-2021 03:01:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/NatRichmond/Local Sites/sweet-babyy/app/public/wp-content/themes/sweetbabytheme/functions.php on line 21
